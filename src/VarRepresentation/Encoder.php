@@ -154,7 +154,7 @@ class Encoder
                         break;
                     case \T_STRING:
                         switch ($token[1]) {
-                            case 'NULL';
+                            case 'NULL':
                                 $values[] = 'null';
                             break 2;
                             /*
